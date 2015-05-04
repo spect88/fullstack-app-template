@@ -3,7 +3,7 @@ node_js:
 - 0.10
 
 before_script:
-- npm build
+- npm run build
 
 script:
 - npm test
