@@ -1,0 +1,6 @@
+$jumbotron-shadow-color: #999;
+$jumbotron-shadow-blur: 10px;
+
+.jumbotron {
+  box-shadow: 0px 0px $jumbotron-shadow-blur $jumbotron-shadow-color;
+}

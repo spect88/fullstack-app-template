@@ -1,0 +1,29 @@
+{
+  "config/*": {
+    "type": "config"
+  },
+  "server/*.es6": {
+    "type": "server",
+    "alternate": "spec/server/{}.spec.es6",
+    "dispatch": "npm test -- spec/server/{}.spec.es6"
+  },
+  "server/views/*.hbs": {
+    "type": "view"
+  },
+  "client/scripts/*.es6": {
+    "type": "script",
+    "alternate": "spec/client/{}.spec.es6",
+    "dispatch": "npm test -- spec/client/{}.spec.es6"
+  },
+  "client/styles/*.scss": {
+    "type": "style"
+  },
+  "spec/server/*.spec.es6": {
+    "alternate": "server/{}.es6",
+    "dispatch": "npm test -- spec/server/{}.spec.es6"
+  },
+  "spec/client/*.spec.es6": {
+    "alternate": "client/scripts/{}.es6",
+    "dispatch": "npm test -- spec/client/{}.spec.es6"
+  }
+}

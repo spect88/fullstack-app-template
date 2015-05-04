@@ -1,0 +1,23 @@
+{
+  "server": {
+    "dir": "./server",
+    "main": "./server.es6",
+    "views": {
+      "dir": "./server/views",
+      "layouts": { "dir": "./server/views/layouts" },
+      "partials": { "dir": "./server/views/partials" }
+    }
+  },
+  "client": {
+    "scripts": {
+      "dir": "./client/scripts",
+      "main": "./client/scripts/app.es6"
+    },
+    "styles": {
+      "dir": "./client/styles",
+      "main": "./client/styles/app.scss"
+    }
+  },
+  "public": { "dir": "./public" },
+  "dist": { "dir": "./dist" }
+}
