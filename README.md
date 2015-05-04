@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/spect88/fullstack-app-template.svg)](https://travis-ci.org/spect88/fullstack-app-template)
 
-Framework-agnostice template for Single Page Apps, backed by simple
+Framework-agnostic template for Single Page Apps, backed by simple
 Express server. The basic development tools are all set up.
 
 ## Features
